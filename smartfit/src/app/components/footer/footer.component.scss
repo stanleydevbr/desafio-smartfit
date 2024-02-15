@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100vw;
+}
+
+footer .logo-container {
+  background: var(--dark-grey);
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer .text-container {
+  padding: 24px;
+  width: 100%;
+  background: var(--dark-grey);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer .text-container p {
+  font-family: 'Gotham';
+  color: var(--light-grey);
+  font-weight: 300;
+}
+
+footer .logo-container img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+}

@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100vw;
+  gap: 32px;
+}
+
+header .logo-container {
+  background: black;
+  padding: 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+header .text-container h1 {
+  font-family: 'Gotham';
+  font-size: 2.5rem;
+  margin: 5px;
+  color: var(--dark-grey);
+  font-weight: 700;
+}
+
+header .text-container p {
+  font-family: 'Gotham';
+  color: var(--light-grey);
+  font-weight: 300;
+}
+
+header .logo-container img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+header .text-container .heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 24px;
+  gap: 14px;
+}
+
+header .text-container .heading .heading-border{
+  height: 12px;
+  width: 40%;
+  background: var(--dark-grey);
+}

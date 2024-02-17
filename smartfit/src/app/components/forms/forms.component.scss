@@ -1,15 +1,14 @@
-
 .form-group {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  padding: 24px;
+  padding: 20px;
   border: 2px solid #ccc5c5;
   border-radius: 10px;
-  max-width: 80%;
+  max-width: 77%;
   width: 100%;
-  margin: 30px auto;
+  margin: 20px auto;
 }
 
 .form-group .form-icon {
@@ -46,10 +45,12 @@
   padding-top: 12px;
   padding-bottom: 12px;
 }
+
 .form-group .form-option  label {
   margin-left: 10px;
   width: 50%;
 }
+
 .form-group .form-option  span {
   display: flex;
   align-items: center;

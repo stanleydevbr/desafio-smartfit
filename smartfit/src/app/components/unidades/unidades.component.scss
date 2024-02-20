@@ -1,0 +1,80 @@
+.unidade-group {
+  display: flex;
+  border-radius: 5px;
+  background-color: #eeeaea;
+  flex-direction: column;
+  align-content: center;
+  font-family: "Gotham";
+  //border: 1px solid #168516;
+  width: 25%;
+  padding: 10px;
+  margin-left: 10%;
+}
+.unidade-group .situacao {
+  display: inline-block;
+  width: 100%;
+  padding: 5px;
+}
+.unidade-group .situacao p {
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--green);
+}
+
+.unidade-group .endereco {
+  padding: 5px;
+  border-bottom: 1px solid var(--light-grey);
+  padding-bottom: 15px;
+}
+
+.unidade-group h3 {
+  display: inline-block;
+  color: var(--dark-grey);
+  font-size: 20px;
+  font-weight: 700;
+  font-style: bold;
+  width: 100%;
+  margin-top: 10px;
+}
+.unidade-group p {
+  display: inline-block;
+  color: var(--dark-grey);
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+  margin-top: 10px;
+}
+.unidade-group .status-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.unidade-group .status-group img {
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+
+.unidade-group .funcionamento {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  //border: 1px solid #168516;
+  width: 100%;
+}
+.unidade-group .funcionamento .horario {
+  display: flex;
+  //border: 1px solid #168516;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5px;
+  font-size: 18px;
+  width: 46%;
+}
